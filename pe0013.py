@@ -108,4 +108,4 @@ for i in to_sum.split('\n'):
     print(i)
     if str(i).isdigit():
         my_sum = my_sum + int(i)
-    print str((my_sum))[:10]
+    print(str(my_sum)[:10])
